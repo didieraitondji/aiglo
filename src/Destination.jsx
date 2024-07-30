@@ -3,6 +3,7 @@ import Menu from './composant/Menu'
 import Baniere from './composant/Baniere'
 import Footer from './composant/Footer'
 import Pub1 from './composant/Pub1'
+import Pub2 from './composant/Pub2'
 
 export default function Destination() {
     return (
@@ -28,6 +29,10 @@ export default function Destination() {
 
                 <div className=''>
                     <Pub1 />
+                </div>
+
+                <div className=''>
+                    <Pub2 />
                 </div>
 
                 <div className=''>
