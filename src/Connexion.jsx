@@ -43,6 +43,7 @@ export default function Connexion() {
                                 placeholder='entrer mot de passe'
                                 className='border border-slate-500 p-2 rounded-full text-center w-full mt-10'
                                 autoComplete='off'
+                                required
                             />
                         </div>
                         <div className='flex w-full'>
@@ -50,14 +51,26 @@ export default function Connexion() {
                                 type="submit"
                                 value="Se connecter"
                                 className='border border-slate-500 p-2 rounded-full text-center w-full mt-10 bg-slate-500 text-white hover:font-bold cursor-pointer'
+                                required
                             />
                         </div><br />
                         <hr />
                         <div className='text-center p-2'>
-                            <a href="" className='font-bold text-slate-500'>Mot de passe oublié ?</a>
-                        </div>
+                            <a href="" className='font-bold text-slate-500 hover:underline'>Mot de passe oublié ?</a>
+                        </div><br />
+                        <hr />
+                        <div className='text-center'>
+                            <a href="/client/enregistrer/" className='font-bold text-slate-500 hover:underline'>S'inscrire </a>
+                        </div><br />
                     </div>
                 </form>
+            </div>
+            <div className='w-[100px] text-white fixed top-0 left-0 flex p-5 items-center justify-center'>
+                <a href='/' title='Accueil Aiglo' className='cursor-pointer'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                    </svg>
+                </a>
             </div>
         </>
     )

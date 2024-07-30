@@ -4,6 +4,7 @@ import Baniere from './composant/Baniere'
 import Footer from './composant/Footer'
 import Pub1 from './composant/Pub1'
 import Pub2 from './composant/Pub2'
+import Pub3 from './composant/Pub3'
 
 export default function Destination() {
     return (
@@ -12,7 +13,7 @@ export default function Destination() {
                 // menu
             }
 
-            <div>
+            <div className=''>
                 <div className='min-h-[700px] bg-[url("/bus-2531578_1280.jpg")] bg-no-repeat bg-cover'>
                 </div>
                 <div className='min-h-[700px] mt-[-700px] bg-[#00000095]'>
@@ -33,6 +34,10 @@ export default function Destination() {
 
                 <div className=''>
                     <Pub2 />
+                </div>
+
+                <div className=''>
+                    <Pub3 />
                 </div>
 
                 <div className=''>
